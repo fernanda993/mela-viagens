@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img src="C:\Users\nanda\OneDrive\Documentos\Projeto\Agencia de viagens\Mela_viagens.png" alt="Logotipo Mela Viagens" style="width: 200px; margin-bottom: 20px;">
     <title>Mela Viagens - Explore o Mundo</title>
-     <p>Explore o Mundo ou Planeje o Intercâmbio dos Seus Sonhos</p>
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -16,10 +14,15 @@
             color: #333;
         }
         header {
+            display: flex;
+            align-items: center;
             background: linear-gradient(90deg, #0077b6, #00b4d8);
             color: #fff;
-            padding: 2rem 0;
-            text-align: center;
+            padding: 1rem 2rem;
+        }
+        header img {
+            width: 100px;
+            margin-right: 1rem;
         }
         nav {
             display: flex;
@@ -73,8 +76,11 @@
 </head>
 <body>
     <header>
-        <h1>Mela Viagens</h1>
-        <p>Explore o Mundo ou Planeje o Intercâmbio dos Seus Sonhos</p>
+        <img src="Mela_viagens.png" alt="Logotipo Mela Viagens">
+        <div>
+            <h1>Mela Viagens</h1>
+            <p>Explore o Mundo ou Planeje o Intercâmbio dos Seus Sonhos</p>
+        </div>
     </header>
     <nav>
         <a href="#viagens">Viagens Internacionais</a>
